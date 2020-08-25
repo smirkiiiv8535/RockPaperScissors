@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17581CD824F4079E005F9606 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17581CD724F4079E005F9606 /* GameResult.swift */; };
+		17581CDA24F4081D005F9606 /* decideRockPaperResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17581CD924F4081D005F9606 /* decideRockPaperResult.swift */; };
+		17581CDC24F4082A005F9606 /* decideTossResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17581CDB24F4082A005F9606 /* decideTossResult.swift */; };
 		17634CA924F346A9005FC890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17634CA824F346A9005FC890 /* AppDelegate.swift */; };
 		17634CAB24F346A9005FC890 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17634CAA24F346A9005FC890 /* SceneDelegate.swift */; };
-		17634CAD24F346A9005FC890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17634CAC24F346A9005FC890 /* ViewController.swift */; };
 		17634CB024F346A9005FC890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17634CAE24F346A9005FC890 /* Main.storyboard */; };
 		17634CB224F346AA005FC890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17634CB124F346AA005FC890 /* Assets.xcassets */; };
 		17634CB524F346AA005FC890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17634CB324F346AA005FC890 /* LaunchScreen.storyboard */; };
 		17634CC024F346AA005FC890 /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17634CBF24F346AA005FC890 /* RockPaperScissorsTests.swift */; };
 		17634CCB24F346AA005FC890 /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17634CCA24F346AA005FC890 /* RockPaperScissorsUITests.swift */; };
+		17DDC70D24F36B7300D422F0 /* tossCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDC70C24F36B7300D422F0 /* tossCoin.swift */; };
+		17DDC70F24F36B8D00D422F0 /* rockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDC70E24F36B8D00D422F0 /* rockPaperScissors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17581CD724F4079E005F9606 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		17581CD924F4081D005F9606 /* decideRockPaperResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decideRockPaperResult.swift; sourceTree = "<group>"; };
+		17581CDB24F4082A005F9606 /* decideTossResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decideTossResult.swift; sourceTree = "<group>"; };
 		17634CA524F346A9005FC890 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17634CA824F346A9005FC890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17634CAA24F346A9005FC890 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17634CAC24F346A9005FC890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17634CAF24F346A9005FC890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17634CB124F346AA005FC890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17634CB424F346AA005FC890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		17634CC624F346AA005FC890 /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17634CCA24F346AA005FC890 /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		17634CCC24F346AA005FC890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DDC70C24F36B7300D422F0 /* tossCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tossCoin.swift; sourceTree = "<group>"; };
+		17DDC70E24F36B8D00D422F0 /* rockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockPaperScissors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,13 @@
 			children = (
 				17634CA824F346A9005FC890 /* AppDelegate.swift */,
 				17634CAA24F346A9005FC890 /* SceneDelegate.swift */,
-				17634CAC24F346A9005FC890 /* ViewController.swift */,
 				17634CAE24F346A9005FC890 /* Main.storyboard */,
+				17DDC70E24F36B8D00D422F0 /* rockPaperScissors.swift */,
+				17DDC70C24F36B7300D422F0 /* tossCoin.swift */,
 				17634CB124F346AA005FC890 /* Assets.xcassets */,
+				17581CD724F4079E005F9606 /* GameResult.swift */,
+				17581CD924F4081D005F9606 /* decideRockPaperResult.swift */,
+				17581CDB24F4082A005F9606 /* decideTossResult.swift */,
 				17634CB324F346AA005FC890 /* LaunchScreen.storyboard */,
 				17634CB624F346AA005FC890 /* Info.plist */,
 			);
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17634CAD24F346A9005FC890 /* ViewController.swift in Sources */,
 				17634CA924F346A9005FC890 /* AppDelegate.swift in Sources */,
+				17581CDC24F4082A005F9606 /* decideTossResult.swift in Sources */,
+				17581CD824F4079E005F9606 /* GameResult.swift in Sources */,
+				17581CDA24F4081D005F9606 /* decideRockPaperResult.swift in Sources */,
 				17634CAB24F346A9005FC890 /* SceneDelegate.swift in Sources */,
+				17DDC70F24F36B8D00D422F0 /* rockPaperScissors.swift in Sources */,
+				17DDC70D24F36B7300D422F0 /* tossCoin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
